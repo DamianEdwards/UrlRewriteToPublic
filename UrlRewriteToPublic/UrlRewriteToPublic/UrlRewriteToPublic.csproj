@@ -81,8 +81,6 @@
     <Content Include="foo.html" />
     <Content Include="blocked.html" />
     <Content Include="public\foo.html" />
-    <Content Include="public\Web.config" />
-    <Content Include="blocked-dir\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
