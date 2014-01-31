@@ -78,8 +78,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="foo.html" />
     <Content Include="blocked.html" />
+    <Content Include="public\foo.html" />
     <Content Include="public\Web.config" />
+    <Content Include="blocked-dir\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -89,7 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="index.html" />
+    <Content Include="blocked-dir\index.html" />
     <Content Include="public\index.html" />
     <Content Include="public\public\index.html" />
     <Content Include="public\site.css" />
